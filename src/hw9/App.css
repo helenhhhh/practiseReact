@@ -1,0 +1,27 @@
+.container{
+  display:flex;
+  flex-flow: row wrap;
+  padding:5px;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+.text-tile{
+  padding:2px 15px;
+  margin: 0 5px;
+  background-color: teal;
+  border-radius: 15px;
+}
+.text-tile > button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+input{
+  border:none;
+  outline:none;
+  font-size: 20px;
+}
+input::placeholder{
+  font-size: 20px;
+  color:teal;
+}

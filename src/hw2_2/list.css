@@ -1,0 +1,19 @@
+.container{
+  display:flex;
+  flex-flow: row wrap;
+  position:relative;
+}
+.list{
+  width:50% ;
+}
+.detail{
+  width:400px ;
+  height:500px;
+  position:fixed;
+  left: 50%;
+}
+.detailcontext{
+  border: 1px solid black;
+  width:100%;
+  height:400px;
+}
